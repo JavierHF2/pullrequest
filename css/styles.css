@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.ancho {
+    max-width: 1200px;
+    margin: auto;
+    border: 1px red solid;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.divlogo {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divlogo i {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 10px 20px 10px;
+    display: none;
+}
+
+.divlogo figure {
+    width: 200px;
+    margin: 20px 10px 20px 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+}
+
+header nav ul li {
+    border: 2px blue solid;
+    padding: 5px 20px 5px 20px;
+}
+
+header nav ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+.zona1 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 10px 0px 10px 0px;
+}
+
+.zona1texto {
+    width: 55%;
+    border: 2px red solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.zona1texto h1 {
+    color: yellow;
+    font-weight: bold;
+}
+
+.zona1texto h2 {
+    font-weight: bold;
+}
+
+.zona1texto button {
+    padding: 10px 0px 10px 0px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 70px;
+}
+
+.zona1imagen {
+    width: 45%;
+}
+
+.zona1imagen figure img{
+    width: 100%;
+}
+
+.zona1imagen figure {
+    border: 2px gray solid;
+    border-radius: 10px;
+    width: 100%;
+}
+
+footer {
+    background-color: blue;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
